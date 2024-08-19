@@ -3,6 +3,7 @@ name: release-please
 run-name: release-please - ${{ github.sha }}
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
