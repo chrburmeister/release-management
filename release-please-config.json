@@ -67,7 +67,7 @@
     "packages": {
         "module": {
             "release-type": "simple",
-            "component": "m1",
+            "component": "module",
             "changelog-path": "CHANGELOG.md",
             "path": "module",
             "exclude-paths": [
