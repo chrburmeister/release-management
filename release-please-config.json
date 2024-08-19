@@ -1,0 +1,78 @@
+{
+    "plugins": [],
+    "changelog-sections": [
+        {
+            "type": "feat",
+            "section": "Features"
+        },
+        {
+            "type": "feature",
+            "section": "Features"
+        },
+        {
+            "type": "fix",
+            "section": "Fixes"
+        },
+        {
+            "type": "perf",
+            "section": "Performance Improvements"
+        },
+        {
+            "type": "revert",
+            "section": "Reverts"
+        },
+        {
+            "type": "docs",
+            "section": "Documentation",
+            "hidden": true
+        },
+        {
+            "type": "style",
+            "section": "Styles",
+            "hidden": true
+        },
+        {
+            "type": "chore",
+            "section": "Miscellaneous Chores",
+            "hidden": true
+        },
+        {
+            "type": "refactor",
+            "section": "Code Refactoring",
+            "hidden": true
+        },
+        {
+            "type": "test",
+            "section": "Tests",
+            "hidden": true
+        },
+        {
+            "type": "build",
+            "section": "Build System",
+            "hidden": true
+        },
+        {
+            "type": "ci",
+            "section": "Continuous Integration",
+            "hidden": true
+        }
+    ],
+    "pull-request-header": "Release Please PR ${scope}",
+    "pull-request-title-pattern": "chore: release for branch: ${scope} | update ${component} to version: ${version}",
+    "pull-request-footer": "created by release-please action.",
+    "separate-pull-requests": true,
+    "group-pull-request-title-pattern": "chore: release for branch: ${scope} | update ${component} to version: ${version}",
+    "draft": false,
+    "include-v-in-tag": true,
+    "packages": {
+        "module": {
+            "release-type": "simple",
+            "component": "m1",
+            "changelog-path": "module/CHANGELOG.md",
+            "exclude-paths": [
+                "docs"
+            ]
+        }
+    },
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
