@@ -68,7 +68,8 @@
         "module": {
             "release-type": "simple",
             "component": "m1",
-            "changelog-path": "module/CHANGELOG.md",
+            "changelog-path": "CHANGELOG.md",
+            "path": "module",
             "exclude-paths": [
                 "docs"
             ]
