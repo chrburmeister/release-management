@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.0](https://github.com/chrburmeister/release-management/compare/module-v0.1.0...module-v1.0.0) (2024-08-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* new cool stuff
+
+### Features
+
+* new cool stuff ([cb00c11](https://github.com/chrburmeister/release-management/commit/cb00c111a6ff0d30261b489c2da7e975f393d4d7))
+* **script:** :sparkles:  new output ([7dc46c1](https://github.com/chrburmeister/release-management/commit/7dc46c1037a6c6e932ba3b09ee0e9e926316eab5))
+
 ## [0.1.0](https://github.com/chrburmeister/release-management/compare/module-v0.0.1...module-v0.1.0) (2024-08-19)
 
 
