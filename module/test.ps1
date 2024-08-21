@@ -1,5 +1,7 @@
 Write-Output "Hello World!"
 
-Write-Outpu "another one!"
+Write-Output "another one!"
+Write-Output "another one!"
+Write-Output "another one!"
 # I'm a comment!
 Get-Host
